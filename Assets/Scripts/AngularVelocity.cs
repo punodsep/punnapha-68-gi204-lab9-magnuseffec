@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class AngularVelocity : MonoBehaviour
 {
     public float angularSpeed;
-    private Rigidbody rb;
+    Rigidbody rb;
 
     void Start()
     {
