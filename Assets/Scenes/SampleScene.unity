@@ -301,13 +301,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.087788366, y: -0, z: -0, w: 0.99613917}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10.073, y: 0, z: 0}
 --- !u!1 &1086674666
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +321,7 @@ GameObject:
   - component: {fileID: 1086674669}
   - component: {fileID: 1086674668}
   - component: {fileID: 1086674667}
+  - component: {fileID: 1086674672}
   m_Layer: 0
   m_Name: Cube_Torque
   m_TagString: Untagged
@@ -442,12 +443,25 @@ Transform:
   m_GameObject: {fileID: 1086674666}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.78, y: 0.35, z: 0.5}
+  m_LocalPosition: {x: 1.6999999, y: 2.23, z: -5.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086674672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086674666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259e77db1959f1f44b1237110b9a349a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TorqueRotate
+  torqueSize: 5
 --- !u!1 &1958028356
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +597,7 @@ Transform:
   m_GameObject: {fileID: 1958028356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.35, z: 0.5}
+  m_LocalPosition: {x: -1.58, y: 2.23, z: -5.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -601,6 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f32cddb10abd14d9ce98424a0228b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AngularVelocity
+  angularSpeed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
